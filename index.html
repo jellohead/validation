@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Form Validation Project</title>
+    <script src="./validation.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Form Validation
+        <form action="./index.html" id="valForm">
+            <ul>
+                <li>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email">
+                    </p>
+                    <label for="country">Country</label>
+                    <input type="text">
+                    <label for="zip">Zipcode</label>
+                    <input type="number">
+                    <label for="password">Password (8 characters minimum)</label>
+                    <input type="password" autocomplete="new-password">
+                    <label for="confirmation">Password Confirmation</label>
+                    <input type="password" autocomplete="new-password">
+                </li>
+            </ul>
+
+
+
+        </form>
+
+        <form id="login" action="signup.php" method="post">
+            <input type="text" autocomplete="username">
+            <input type="password" autocomplete="new-password">
+            <input type="submit" value="Sign Up!">
+        </form>
+
+        <form id="login" action="signup.php" method="post">
+            <input type="text" autocomplete="username">
+            <input type="password" autocomplete="new-password">
+            <input type="password" autocomplete="new-password">
+            <input type="submit" value="Sign Up!">
+        </form>
+    </h1>
+
+
+</body>
+
+</html>
