@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Form Validation Project</title>
     <script src="./validation.js" defer></script>
     <link rel="stylesheet" href="./style.css">
@@ -15,33 +14,44 @@
         <form action="./index.html" id="valForm">
             <ul>
                 <li>
-                    <p>
-                        <label for="email">Email</label>
-                        <input type="email" id='email-id'>
-                    </p>
-                    <p><label for="country">Country</label>
-                        <input type="text">
-                    </p>
-                    <p><label for="zip">Zipcode</label>
-                        <input type="number">
-                    </p>
-                    <p><label for="password">Password (8 characters minimum)</label>
 
-                        <input type="password" autocomplete="new-password">
-                    <p><label for="confirmation">Password Confirmation</label>
-                        <input type="password" autocomplete="new-password">
-                    </p>
+                    <label for="email">Email</label>
+                    <input type="email" id='email-id'>
+
+                <li>
+                    <label for="country">Country</label>
+                    <input type="text">
+
+                </li>
+                <li>
+                    <label for="zip">Zipcode</label>
+                    <input type="text" id="zip-code">
+
+                </li>
+
+                <li>
+                    <label for="password">Password (8 characters minimum)</label>
+                    <input type="password" autocomplete="new-password">
+
+                </li>
+                <li>
+                    <label for="confirmation">Password Confirmation</label>
+                    <input type="password" autocomplete="new-password">
                 </li>
             </ul>
+
+            <input class='submit' type="button" value="Submit">
 
 
 
         </form>
 
         <!-- <form id="login" action="signup.php" method="post">
+
             <input type="text" autocomplete="username">
             <input type="password" autocomplete="new-password">
             <input type="submit" value="Sign Up!">
+
         </form>
 
         <form id="login" action="signup.php" method="post">
